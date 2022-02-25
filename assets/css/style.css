@@ -1,0 +1,113 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial;
+}
+
+body {
+	background-color: #f7f7f7;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+	display: block;
+	padding: 20px;
+}
+
+header {
+	position: fixed;
+	width: 100%;
+	height: 80px;
+	background-color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-shadow: 1px 2px 1px 2px #ccc;
+}
+
+#logo {
+	font-size: 2rem;
+}
+
+.mobile-menu {
+	background: transparent;
+	border: none;
+	display: none;
+}
+
+.mobile-menu span {
+	display: flex;
+	flex-direction: column;
+	margin: 6px;
+	background-color: #000;
+	height: 2px;
+	width: 32px;
+
+}
+
+.nav-list {
+	display: flex;
+	gap: 10px;
+}
+
+.nav-list li a {
+	color: #767;
+	transition: .6s;
+}
+
+.nav-list li a:hover {
+	color: #111;
+}
+
+main {
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.container {
+	width: 99%;
+}
+
+.title-underlined {
+	color: #333;
+	font-size: 14px;
+}
+
+.title-underlined span {
+	border-bottom: 1px solid #000;
+}
+
+.view {
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.name {
+	margin-left: 85px;
+	font-size: 80pt;
+}
+
+.description {
+	color: #ccc;
+	font-family: monospace;
+	font-size: 35px;
+	padding-bottom: 5px;
+	transition: .6s;
+}
+
+.description:hover {
+
+	border-bottom: 1px solid #ccc;
+}
+
